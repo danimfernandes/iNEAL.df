@@ -1,3 +1,3 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/admixVIE/iNEAL/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danimfernandes/iNEAL.df/HEAD)
 
 # iNEAL.df
