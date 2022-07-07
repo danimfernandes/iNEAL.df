@@ -1,0 +1,10 @@
+genotypename:	iNEAL_PCA_chr21_PAM.geno
+snpname:	iNEAL_PCA_chr21_PAM.snp
+indivname:	iNEAL_PCA_chr21_PAM.ind
+evecoutname:	iNEAL_PCA_chr21_PAM.evec
+evaloutname:	iNEAL_PCA_chr21_PAM.eval
+poplistname:	Modern_Populations_PCA
+numoutevec:	2
+lsqproject:	YES
+shrinkmode: YES
+numthreads: 8
