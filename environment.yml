@@ -1,0 +1,15 @@
+name: ineal
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - admixtools
+  - admixture
+  - bcftools
+  - eigensoft
+  - notebook
+  - numpy
+  - openjdk
+  - pandas
+  - plink
+  - tabix
