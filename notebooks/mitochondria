@@ -1,1 +1,2 @@
-
+clustalo -i 5humans_9Nea_Den_Allq30.fas  -o 5humans_9Nea_Den_Allq30.aln
+raxmlHPC  -s 5humans_9Nea_Den_Allq30.aln -n tree-noad-tree -f a -T 6 -m GTRGAMMA -x 5415145 -N 100 -p 874684758 -o Denisova_8
