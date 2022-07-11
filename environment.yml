@@ -13,3 +13,5 @@ dependencies:
   - pandas
   - plink
   - tabix
+  - clustalo
+  - raxml
