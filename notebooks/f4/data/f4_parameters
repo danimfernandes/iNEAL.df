@@ -1,6 +1,6 @@
-genotypename: iNEAL_f4_PAM.geno
-snpname: iNEAL_f4_PAM.snp
-indivname: iNEAL_f4_PAM.ind
+genotypename: iNEAL_f4v2_PAM.geno
+snpname: iNEAL_f4v2_PAM.snp
+indivname: iNEAL_f4v2_PAM.ind
 popfilename: f4_tests
 f4mode: YES
 details: YES
