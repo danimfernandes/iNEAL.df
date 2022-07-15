@@ -45,6 +45,8 @@ https://www.ensembl.org/Help/Faq?id=532
     Karitiana.SDG (Western Amazonian, Brazil)
     Papuan.SDG (Indonesia and Papua New Guinea)
 
+# Calculate Allele Frequencies #
+
 We can now use PLINK to calculate the allele frequencies of the 4 SNPs we isolated, in all these populations/individuals:
 
     plink --bfile iNEAL_TLRadapInto_subset --freq --family
