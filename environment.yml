@@ -16,4 +16,3 @@ dependencies:
   - clustalo
   - raxml
   - nano
-  - r-base
