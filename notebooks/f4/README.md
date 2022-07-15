@@ -161,14 +161,17 @@ And here are the results:
 
 ## Replicating Mafessoni et al. 2020 ##
 
-Mafessoni and colleagues tried to understand if published archaic individuals were closer to the newly presented Chagyrskaya individual, than to the ones from the nearby 100km Denisova Cave, or if instead theyr were closer to the far away Vindija individual.
+Mafessoni and colleagues tried to understand two things about published archaic individuals and their relationship towards Chagyrskaya 8:
+
+a) were they closer to the newly presented 80 kyo Chagyrskaya individual, than to the 100 kyo Neanderthal from the nearby 100km Denisova Cave
+b) or instead were they closer to the 50 kyo Vindija individual.
 
 Again, we divided the data into 2 parts. Part 3a contains the tests against Altai_Neanderthal (AKA Denisova 5), and part 3b against Vindija33.19.
 
     qpDstat -p f4_parameters_Mafessoni_3a
     qpDstat -p f4_parameters_Mafessoni_3b
 
-Here are the results for 3a (Denisova 5 vs Chagyrskaya 8):
+Here are the results for 3a (100 kyo Denisova 5 vs 80 kyo Chagyrskaya 8):
 
     result:  Chimp.REF LesCottes_Neanderthal.SG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG      0.003413     18.195    6130   3330 820204 
     result:  Chimp.REF Spy_Neanderthal.SG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG      0.003340     16.411    3538   1917 485146 
@@ -178,7 +181,7 @@ Here are the results for 3a (Denisova 5 vs Chagyrskaya 8):
     result:  Chimp.REF DenisovaNeanderthalMix.SG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG      0.001598     11.833    4957   3565 871328 
     result:  Chimp.REF Denisova.DG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG     -0.000282     -2.153    3941   4229 1020023 
 
-And here are the results for 3b (Vindija33.19 vs Chagyrskaya 8):
+And here are the results for 3b (50 kyo Vindija33.19 vs 80 kyo Chagyrskaya 8):
 
     result:  Chimp.REF LesCottes_Neanderthal.SG Vindija.DG Chagyrskaya_Neandert.SG     -0.001415     -9.747    2940   4100 820223 
     result:  Chimp.REF Spy_Neanderthal.SG Vindija.DG Chagyrskaya_Neandert.SG     -0.001927    -11.803    1582   2518 485176 
