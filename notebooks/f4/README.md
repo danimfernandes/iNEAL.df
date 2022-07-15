@@ -10,7 +10,7 @@ Qin & Stoneking used f4-statistics to investigate how many alleles modern popula
 
     f4(Yoruba, X; Neanderthal, Denisovan)
 
-![](https://d3i71xaburhd42.cloudfront.net/58880dd66f18b0b831857089db56c8ca69689a04/3-Figure2-1.png)
+![Image1](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mbe/32/10/10.1093_molbev_msv141/2/m_msv141f2p.jpeg?Expires=1660838804&Signature=yGcFga1I6MLqkcsEqWqdGFsM4mof7dLWlrBZViUBdi5sS0sOVpPpQyiUtG3-mSRdIegIAtFeFa54LNzDB3lCPwU27RzN3WZNZ5klDn43v8NPBhcfLBTaS0anF888JYRUNAZXwq7ehkyJeigklQc4TK7oPPEyQAHid8lu9XTPvwb~VZ-PNtUX8lv-est7d0bPs7~L2cHWizD1treOFR02ctbqF5taHKByJy53wuv6RVGjF1X98kvWA7OHeRHJeUucYwn2ZIwmapnxqFWqVLopSoh5LDcaxTUQEFsl7FDtFtZmg~LEWeW6YItb4Q4WsW3WafuYrvwY-tOqIBhJDeXHZg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
 
 
 
