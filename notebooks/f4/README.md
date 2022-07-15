@@ -6,7 +6,7 @@ We will guide you through some of the most commonly used methods in Neanderthal 
 # f4-statistics #
 ## Replicating Qin & Stoneking 2015 ##
 
-Qin & Stoneking used f4-statistics to investigate how many alleles modern populations (X) shared with Neanderthals versus Denisovans (or vice versa).
+Qin & Stoneking used f4-statistics to investigate modern populations (X) shared more alleles with Neanderthals versus Denisovans (or vice versa).
 
     f4(Yoruba, X; Neanderthal, Denisovan)
     f4 > 0      X closer to Neanderthal than to Denisovan
@@ -129,11 +129,36 @@ And here are all the results combined:
 
 ## Replicating Hajdinjak et al. 2021 ##
 
+Hajdinjak and colleagues used f4-statistics to investigate if some ancient/archaic individuals (X) shared more alleles with the eastern Tianyuan or western Kostenki14.
 
+    D/f4(Tianyuan, Kostenki14; X, Mbuti) 
+    f4(A, B; C, D) or f4(D, C; B, A)
 
+    f4(Tianyuan, Kostenki14; X, Mbuti) 
+    f4(Mbuti, X; Kostenki14, Tianyuan)
 
+    D/f4 > 0        X closer to Tianyuan than to Kostenki14
+    D/f4 < 0        X closer to Kostenki14 than to Tianyuan
 
+We separated our data again, this time into 2 sets of files, so let's run the first one, then the second:
 
+    qpDstat -p f4_parameters_Hajdinjak_2a
+    qpDstat -p f4_parameters_Hajdinjak_2b
+
+And here are the results:
+
+    result: China_Tianyuan Russia_Kostenki14.SG Russia_Sunghir3.SG   Mbuti.DG     -0.012435    -15.004   41016  51074 808838 
+    result: China_Tianyuan Russia_Kostenki14.SG Czech_Vestonice16   Mbuti.DG     -0.010691    -13.274   31323  37910 616144 
+    result: China_Tianyuan Russia_Kostenki14.SG Belgium_UP_GoyetQ116_1   Mbuti.DG     -0.006486     -7.652   35397  39666 658252 
+    result: China_Tianyuan Russia_Kostenki14.SG Luxembourg_Loschbour.DG   Mbuti.DG     -0.008428    -11.930   42232  48976 800247 
+    result: China_Tianyuan Russia_Kostenki14.SG Russia_HG_Karelia.SG   Mbuti.DG     -0.004793     -6.619   38305  41683 704840 
+    
+    result: China_Tianyuan Russia_Kostenki14.SG Romania_Oase   Mbuti.DG      0.001606      1.760    9108   8835 169768 
+    result: China_Tianyuan Russia_Kostenki14.SG Russia_Ust_Ishim.DG   Mbuti.DG     -0.000333     -0.449   42335  42590 766348 
+    result: China_Tianyuan Russia_Kostenki14.SG USA_Anzick.SG   Mbuti.DG      0.003994      5.845   47439  44215 807327 
+    result: China_Tianyuan Russia_Kostenki14.SG USA_WA_Kennewick.SG   Mbuti.DG      0.003807      5.091   24728  23106 425924 
+    result: China_Tianyuan Russia_Kostenki14.SG Greenland_Saqqaq.SG   Mbuti.DG      0.005727      7.831   46410  41922 783674
 
 ## Replicating Mafessoni et al. 2020 ##
 
+Mafessoni and colleagues 
