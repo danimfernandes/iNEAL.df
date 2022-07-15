@@ -3,7 +3,6 @@
 First, to expedite the analysis, we should isolate the SNPs we want to look at in the TLR cluster from the 1.24 million dataset:
 
     rs11466640
-    rs3924113
     rs5743563
     rs5743560
     rs11725779
