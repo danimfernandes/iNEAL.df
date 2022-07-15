@@ -161,7 +161,7 @@ And here are the results:
 
 ## Replicating Mafessoni et al. 2020 ##
 
-Mafessoni and colleagues tried to understand if archaic individuals were closer to the newly presented Chagyrskaya individual, or to the ones from the nearby Denisova or far away Vindija caves.
+Mafessoni and colleagues tried to understand if published archaic individuals were closer to the newly presented Chagyrskaya individual, than to the ones from the nearby 100km Denisova Cave, or if instead theyr were closer to the far away Vindija individual.
 
 Again, we divided the data into 2 parts. Part 3a contains the tests against Altai_Neanderthal (AKA Denisova 5), and part 3b against Vindija33.19.
 
