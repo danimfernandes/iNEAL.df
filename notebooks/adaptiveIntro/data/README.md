@@ -12,7 +12,7 @@ Let's create a new test file and add this information to it.
 
 Now, we can use the following commands with the software PLINK to reduce our huge dataset into only these SNPs:
 
-    plink --bfile iNEAL_TLRadapInto --extract extract_SNPsTLR --make-bed --out iNEAL_TLRadapInto_subset --allow-no-sex --keep-allele-order
+    plink --bfile iNEAL_TLRadapInto --extract extract_SNPsTLR --make-bed --out iNEAL_TLRadapInto_subset
 
 The dataset provided comes with the following populations/individuals. Modern population codes are listed here:
 https://www.ensembl.org/Help/Faq?id=532
@@ -36,3 +36,8 @@ https://www.ensembl.org/Help/Faq?id=532
     ESN.SG (Esan in Nigeria)
     YRI.SG (Yoruba in Ibadan, Nigera)
     LWK.SG (Luhya in Webuye, Kenya)   
+
+We can now use PLINK to calculate the allele frequencies of all these populations/individuals:
+
+    plink --bfile iNEAL_TLRadapInto_subset --freq --family
+
