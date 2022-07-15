@@ -4,7 +4,9 @@ We will show how to detect an example fragment in modern human data that also sh
 
 # Isolate wanted SNPs #
 
-First, to expedite the analysis, we should isolate the SNPs we want to look at in the TLR cluster from the 1.24 million dataset:
+The dataset we are giving you ("iNEAL_TLRadapInto") includes plenty more SNPs that are not of interest for what we want to show you.
+
+So first, to expedite the analysis, we should isolate the SNPs we want to look at in the TLR cluster from the 1.24 million dataset:
 
     rs11466640
     rs5743563
