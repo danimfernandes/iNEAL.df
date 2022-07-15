@@ -21,7 +21,8 @@ helpa = """
 
     > 3. Usage
     Input:
-    convertingit.py fooDataset inputFormat outputFormat
+    convertingit
+    fooDataset inputFormat outputFormat
 
     Output:
     fooDatasetReduced.geno/bed
@@ -121,10 +122,10 @@ else:
 
 if inputFormat == "PACKEDANCESTRYMAP" or inputFormat == "ANCESTRYMAP" or inputFormat == "EIGENSTRAT":
 	if outputFormat == "PACKEDPED":
-		os.system("famfile_correction.py")
+		os.system("./famfile_correction.py")
 
 if inputFormat == "PACKEDPED":
 	if outputFormat == "ANCESTRYMAP" or outputFormat == "EIGENSTRAT":
-		os.system("indfile_correction.py")
+		os.system("./indfile_correction.py")
 
 fout.close()
