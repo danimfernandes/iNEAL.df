@@ -1,3 +1,7 @@
+# Practical Training Session II: Adaptive Introgression in Modern and Archaic Humans #
+
+We will show how to detect an example fragment in modern human data that also shows a signature of positive selection. We will compare the state of specific archaic-like SNPs in archaic and modern genomes.
+
 # Isolate wanted SNPs #
 
 First, to expedite the analysis, we should isolate the SNPs we want to look at in the TLR cluster from the 1.24 million dataset:
