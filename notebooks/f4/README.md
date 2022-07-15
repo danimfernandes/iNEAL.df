@@ -9,9 +9,14 @@ We will guide you through some of the most commonly used methods in Neanderthal 
 Qin & Stoneking used f4-statistics to investigate how many alleles modern populations (X) shared with Neanderthals versus Denisovans (or vice versa).
 
     f4(Yoruba, X; Neanderthal, Denisovan)
+    f4 > 0      X closer to Neanderthal than to Denisovan
+    f4 < 0      X closer to Denisovan than to Neanderthal
 
-![Image1](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/mbe/32/10/10.1093_molbev_msv141/2/m_msv141f2p.jpeg?Expires=1660838804&Signature=yGcFga1I6MLqkcsEqWqdGFsM4mof7dLWlrBZViUBdi5sS0sOVpPpQyiUtG3-mSRdIegIAtFeFa54LNzDB3lCPwU27RzN3WZNZ5klDn43v8NPBhcfLBTaS0anF888JYRUNAZXwq7ehkyJeigklQc4TK7oPPEyQAHid8lu9XTPvwb~VZ-PNtUX8lv-est7d0bPs7~L2cHWizD1treOFR02ctbqF5taHKByJy53wuv6RVGjF1X98kvWA7OHeRHJeUucYwn2ZIwmapnxqFWqVLopSoh5LDcaxTUQEFsl7FDtFtZmg~LEWeW6YItb4Q4WsW3WafuYrvwY-tOqIBhJDeXHZg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+However, as shown in the paper's figure legend, all f4 values they obtained were < 0, but some were *more negative* than others.
 
+To investigate the results of these tests, let's do some ourselves. We're going to need the software "qpDstat" from the ADMIXTOOLS package.
+
+    qpDstat
 
 
 
