@@ -41,7 +41,9 @@ https://www.ensembl.org/Help/Faq?id=532
     IBS.SG (Iberian population in Spain)
     ESN.SG (Esan in Nigeria)
     YRI.SG (Yoruba in Ibadan, Nigera)
-    LWK.SG (Luhya in Webuye, Kenya)   
+    LWK.SG (Luhya in Webuye, Kenya)
+    Karitiana.SDG (Western Amazonian, Brazil)
+    Papuan.SDG (Indonesia and Papua New Guinea)
 
 We can now use PLINK to calculate the allele frequencies of the 4 SNPs we isolated, in all these populations/individuals:
 
