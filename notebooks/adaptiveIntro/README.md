@@ -41,5 +41,6 @@ We can now use PLINK to calculate the allele frequencies of all these population
     plink --bfile iNEAL_TLRadapInto_subset --freq --family
 
 Let's now open the output file and look a the frequencies of the alleles of those SNPs in these populations.
-To help visualize the results
+
+To help visualize the results, we're going to do this in Excel.
 
