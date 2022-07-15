@@ -1,5 +1,5 @@
 # Practical Training Session I #
-# Introduction to Ancient Population Genetics for Non-Geneticists #
+# Introduction to Ancient Population Genetics for Non-Geneticists (Part 2) #
 
 We will guide you through some of the most commonly used methods in Neanderthal paleogenomics, and help you produce some simple statistical tests and plots. These will include mitochondrial DNA neighbour-joining trees, f4-statistics, and estimates of introgression quantification using f4-ratio.
 
