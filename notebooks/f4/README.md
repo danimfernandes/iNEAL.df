@@ -161,4 +161,30 @@ And here are the results:
 
 ## Replicating Mafessoni et al. 2020 ##
 
-Mafessoni and colleagues 
+Mafessoni and colleagues tried to understand if archaic individuals were closer to the newly presented Chagyrskaya individual, or to the ones from the nearby Denisova or far away Vindija caves.
+
+Again, we divided the data into 2 parts. Part 3a contains the tests against Altai_Neanderthal (AKA Denisova 5).
+
+    qpDstat -p f4_parameters_Mafessoni_3a
+    qpDstat -p f4_parameters_Mafessoni_3b
+
+Here are the results for 3a (Denisova 5 vs Chagyrskaya 8):
+
+    result:  Chimp.REF LesCottes_Neanderthal.SG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG      0.003413     18.195    6130   3330 820204 
+    result:  Chimp.REF Spy_Neanderthal.SG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG      0.003340     16.411    3538   1917 485146 
+    result:  Chimp.REF Goyet_Neanderthal.SG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG      0.003582     17.743    6059   3218 793119 
+    result:  Chimp.REF Mezmaiskaya1_Neander.SG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG      0.003322     16.482    4375   2400 594502 
+    result:  Chimp.REF Vindija.DG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG      0.003569     18.970    7759   4117 1020387 
+    result:  Chimp.REF DenisovaNeanderthalMix.SG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG      0.001598     11.833    4957   3565 871328 
+    result:  Chimp.REF Denisova.DG Altai_Neanderthal.DG Chagyrskaya_Neandert.SG     -0.000282     -2.153    3941   4229 1020023 
+
+And here are the results for 3b (Vindija33.19 vs Chagyrskaya 8):
+
+    result:  Chimp.REF LesCottes_Neanderthal.SG Vindija.DG Chagyrskaya_Neandert.SG     -0.001415     -9.747    2940   4100 820223 
+    result:  Chimp.REF Spy_Neanderthal.SG Vindija.DG Chagyrskaya_Neandert.SG     -0.001927    -11.803    1582   2518 485176 
+    result:  Chimp.REF Goyet_Neanderthal.SG Vindija.DG Chagyrskaya_Neandert.SG     -0.002280    -14.176    2584   4393 793141 
+    result:  Chimp.REF Mezmaiskaya1_Neander.SG Vindija.DG Chagyrskaya_Neandert.SG     -0.000041     -0.292    2522   2546 594520 
+    result:  Chimp.REF Altai_Neanderthal.DG Vindija.DG Chagyrskaya_Neandert.SG      0.000039      0.306    4158   4117 1020387 
+    result:  Chimp.REF DenisovaNeanderthalMix.SG Vindija.DG Chagyrskaya_Neandert.SG      0.000197      1.800    3242   3070 871324 
+    result:  Chimp.REF Denisova.DG Vindija.DG Chagyrskaya_Neandert.SG     -0.000022     -0.228    3001   3024 1020022 
+
