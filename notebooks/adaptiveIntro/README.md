@@ -49,11 +49,11 @@ We can now use PLINK to calculate the allele frequencies of the 4 SNPs we isolat
 
 Let's now open the output file and understand what each column means:
 
-    CHR          SNP     CLST   A1   A2      MAF    MAC  NCHROBS
-    4   rs11466640 Altai_Neanderthal.DG    A    G        1      2        2 
-    4   rs11466640   BEB.SG    A    G   0.1744     30      172 
-    4   rs11466640   CEU.SG    A    G   0.1616     32      198 
-    4   rs11466640 Chagyrskaya_Neanderthal.SG    A    G        1      2        2 
+    CHR          SNP     CLST                           A1   A2      MAF    MAC  NCHROBS
+    4       rs11466640   Altai_Neanderthal.DG           A    G        1      2        2 
+    4       rs11466640   BEB.SG                         A    G   0.1744     30      172 
+    4       rs11466640   CEU.SG                         A    G   0.1616     32      198 
+    4       rs11466640   Chagyrskaya_Neanderthal.SG     A    G        1      2        2 
     (...)
 
 Now, to help visualize and interpret the results, we're going to move our data into Excel.
