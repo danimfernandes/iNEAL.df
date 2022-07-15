@@ -130,6 +130,7 @@ And here are all the results combined:
 ## Replicating Hajdinjak et al. 2021 ##
 
 Hajdinjak and colleagues used f4-statistics to investigate if some ancient/archaic individuals (X) shared more alleles with the eastern Tianyuan or western Kostenki14.
+With this they wanted to see if those individuals contributed more towards modern East or West Eurasians.
 
     D/f4(Tianyuan, Kostenki14; X, Mbuti) 
     f4(A, B; C, D) or f4(D, C; B, A)
