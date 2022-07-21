@@ -17,4 +17,4 @@ Example:
 
 Each result line is: 
 
-result:   Pop1 (A)  Pop2 (O) Pop3 (X)  Pop4 (C): Pop1 (A)  Pop2 (O) Pop5 (B)  Pop4 (C)  alpha  std. err  Z (null=0)
+    result:   Pop1 (A)  Pop2 (O) Pop3 (X)  Pop4 (C): Pop1 (A)  Pop2 (O) Pop5 (B)  Pop4 (C)  alpha  std. err  Z (null=0)
