@@ -63,12 +63,19 @@ Let's now open the output file and understand what each column means:
     (...)
 
 CHR - chromosome
+
 SNP - SNP ID
+
 CLST - "cluster", or population ID
+
 A1 - Allele 1
+
 A2 - Allele 2
+
 MAF - Minor allele frequency (== frequency of A1)
+
 MAC - Minor allele counts (A1 counts)
+
 NCHROBS - Number of chromosome observations (number of chromosomes with data)
 
 Now, to help visualize and interpret the results, we're going to move our data into Excel.
