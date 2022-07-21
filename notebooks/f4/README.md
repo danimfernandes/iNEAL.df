@@ -9,12 +9,12 @@ We will guide you through some of the most commonly used methods in Neanderthal 
 Qin & Stoneking used f4-statistics to investigate modern populations (X) shared more alleles with Neanderthals versus Denisovans (or vice versa).
 
     f4(Yoruba, X; Neanderthal, Denisovan)
-    f4 > 0      X closer to Neanderthal than to Denisovan
-    f4 < 0      X closer to Denisovan than to Neanderthal
+    f4 > 0      X closer to Denisovan than to Neanderthal
+    f4 < 0      X closer to Neanderthal than to Denisovan
 
 However, as shown in the paper's figure legend, all f4 values they obtained were < 0, but some were *more negative* than others.
 
-To investigate the results of these tests, let's do some ourselves. First, we need to have our genetic data! We have prepared a datatset for you with 102 populations/individuals of interest for this practical, with data for 1.24 million positions across the human genome.
+To investigate the results of these tests, let's do some ourselves. First, we need to have our genetic data! We have prepared a datatset for you with 104 populations of interest for this practical (total of 198 individuals), with data for 1.24 million positions across the human genome.
 
 We can have a look at the top few lines of each file to understand what is inside:
 
@@ -28,7 +28,7 @@ We can also check the length of each of those files, which tell us how many indi
 
     wc -l iNEAL_f4v2_PAM.snp
 
-The "wc -l iNEAL_f4v2_PAM.geno" file is in binary format and therefore can't be visualised as text, but it contains the genotype information for each individual, for each 1.24 million positions.
+The "iNEAL_f4v2_PAM.geno" file is in binary format and therefore can't be visualised as text, but it contains the genotype information for each individual, for each 1.24 million positions.
 
 We included a total of 74 modern populations from all across the world, and the following 28 ancient individuals:
 
@@ -91,14 +91,22 @@ We now have everything we need to run our first f4-statistics!
 
     qpDstat -p f4_parameters_QinStoneking_1a
     
-The output information we want to look at is the following, and here is what each column represents:
+The output information we want to look at is the following:
 
                 PopA      PopB           PopC             PopD            f4            Z     BABA    ABBA   SNPS
     result:  Yoruba.DG Spanish.DG Altai_Neanderthal.DG Denisova.DG     -0.001129     -5.533   21757  22938 1045961 
     result:  Yoruba.DG  French.DG Altai_Neanderthal.DG Denisova.DG     -0.001194     -6.099   21793  23042 1046082 
     result:  Yoruba.DG Tuscan_1.DG Altai_Neanderthal.DG Denisova.DG     -0.001421     -7.053   21697  23184 1046007 
     result:  Yoruba.DG Finnish.DG Altai_Neanderthal.DG Denisova.DG     -0.001397     -7.087   21687  23148 1046076 
-    
+
+And here is what each column represents:
+
+    f4 - The f4-statistic value
+    Z - The Z-score, which provides statistical validation of the significance of the f4
+    BABA - BABA counts for similarities between A/C or B/D
+    ABBA - ABBA counts for similarities between A/D or B/C
+    SNPS - Number of SNPs used for this statistic (overlapping SNPs between all 4 populations)
+
 Now let's run the other two commands and get the remaining results.
 
     qpDstat -p f4_parameters_QinStoneking_1b
